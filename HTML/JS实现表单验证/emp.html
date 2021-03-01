@@ -1,0 +1,33 @@
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>ll</title>
+        <script language="JavaScript" src="check.js">
+
+        </script>
+    </head>
+    <body>
+    <form action=""  method="post" name= "empForm" onsubmit="return check(this)">
+        雇员编号:<label><input type="text" name="empno"></label>
+      <!--  <input type="text" name="empnoError"><br />-->
+        <span id="empnoError"></span><br />
+        雇员姓名:<input type="text" name="empName">
+        <input type="text" name="empNameError"><br />
+
+        雇员工作:<input type="text" name="job">
+        <input type="text" name="jobError"><br />
+
+        雇佣日期:<input type="text" name="date">
+        <input type="text" name="dateError"><br />
+
+        基本工资:<input type="text" name="salary">
+        <input type="text" name="salaryError"><br />
+
+        奖&nbsp;&nbsp;&nbsp;&nbsp;金:<input type="text" name="bonus">
+        <input type="text" name="bonusError"><br />
+        <hr />
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+    </form>
+    </body>
+</html>
